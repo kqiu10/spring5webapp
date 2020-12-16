@@ -1,4 +1,4 @@
-package domain;
+package guru.springframework.spring5webapp.domain;
 /**
  * Date: 12/16/20
  * Question Description
@@ -73,7 +73,6 @@ public class Author {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", books=" + books +
                 '}';
     }
 
