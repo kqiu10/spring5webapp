@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th = "htt[://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Srping Framework Guru</title>
+    <title>Spring Framework Guru</title>
 </head>
 <body>
 <h1>Book List</h1>
@@ -13,7 +13,7 @@
         <th>Publisher</th>
     </tr>
     <tr th:each="book : ${books}">
-        <td th:text = "${book.id}">11</td>
+        <td th:text = "${book.id}">1</td>
         <td th:text = "${book.title}">2</td>
         <td th:text = "${book.publisher.name}">3</td>
     </tr>
